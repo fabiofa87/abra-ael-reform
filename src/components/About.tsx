@@ -70,7 +70,9 @@ const About = () => {
 
             <Button variant="whatsapp" size="lg">
               <MessageCircle className="w-5 h-5 mr-2" />
-              Falar com a Abeltec no WhatsApp
+              <a href="https://wa.me/5521987636363" target="_blank" rel="noopener noreferrer">
+                Falar com a Abeltec no WhatsApp
+              </a>
             </Button>
           </div>
 

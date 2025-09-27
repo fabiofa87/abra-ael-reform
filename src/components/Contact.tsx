@@ -26,37 +26,49 @@ const Contact = () => {
           <Card className="bg-white/10 backdrop-blur border-white/20 text-center p-6">
             <Phone className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Telefone</h3>
-            <p className="text-white/80 text-sm mb-4">(XX) XXXXX-XXXX</p>
-            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
+            <p className="text-white/80 text-sm mb-4">(21) 98763-6363</p>
+            <a href="tel:+5521987636363">
+            <Button variant="whatsapp" size="sm">
               Ligar
             </Button>
+            </a>
           </Card>
 
           <Card className="bg-white/10 backdrop-blur border-white/20 text-center p-6">
             <MessageCircle className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">WhatsApp</h3>
             <p className="text-white/80 text-sm mb-4">Atendimento rápido</p>
-            <Button variant="whatsapp" size="sm">
-              Conversar
-            </Button>
+            <a href="https://wa.me/5521987636363" target="_blank" rel="noopener noreferrer">
+              <Button variant="whatsapp" size="sm">
+                Conversar
+              </Button>
+            </a>
           </Card>
 
           <Card className="bg-white/10 backdrop-blur border-white/20 text-center p-6">
             <MapPin className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Localização</h3>
             <p className="text-white/80 text-sm mb-4">Atendemos toda região</p>
-            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
-              Ver no Maps
-            </Button>
+            <a
+              href="https://share.google/h7XO36W8dZnaR3maF"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="whatsapp" size="sm">
+                Ver no Maps
+              </Button>
+            </a>
           </Card>
 
           <Card className="bg-white/10 backdrop-blur border-white/20 text-center p-6">
             <Clock className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Horário</h3>
             <p className="text-white/80 text-sm mb-4">24 horas por dia</p>
-            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
-              Emergência
-            </Button>
+            <a href="tel:+5521987636363">
+              <Button variant="destructive" size="sm">
+                Emergência
+              </Button>
+            </a>
           </Card>
         </div>
 
@@ -87,12 +99,16 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="whatsapp" size="xl">
                 <MessageCircle className="w-5 h-5 mr-2" />
-                Chamar no WhatsApp
+                <a href="https://wa.me/5521987636363" target="_blank" rel="noopener noreferrer">
+                  Chamar no WhatsApp
+                </a>
               </Button>
-              <Button variant="cta" size="xl">
+              <a href="tel:+5521987636363">
+              <Button variant="destructive" size="xl">
                 <Phone className="w-5 h-5 mr-2" />
-                Ligar Agora - 24h
+                Ligar Agora
               </Button>
+              </a>
             </div>
 
             <div className="flex items-center justify-center space-x-2 text-accent">

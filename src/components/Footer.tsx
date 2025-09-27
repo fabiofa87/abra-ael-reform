@@ -39,11 +39,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-sm">
                 <Phone className="w-4 h-4 mr-2 shrink-0" />
-                <span>(XX) XXXXX-XXXX</span>
-              </div>
-              <div className="flex items-center text-sm">
-                <Mail className="w-4 h-4 mr-2 shrink-0" />
-                <span>contato@abeltec.com</span>
+                <span>(21) 98763-6363</span>
               </div>
               <div className="flex items-center text-sm">
                 <MapPin className="w-4 h-4 mr-2 shrink-0" />
@@ -58,10 +54,10 @@ const Footer = () => {
 
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Garantias</h4>
-            <Card className="bg-primary/10 p-4">
+            <Card className="bg-blue-100 p-4">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">6 MESES</div>
-                <div className="text-xs text-secondary-foreground/80">de garantia em todos os serviços</div>
+                <div className="text-2xl font-bold text-blue-800">6 MESES</div>
+                <div className="text-xs text-blue-600">de garantia em todos os serviços</div>
               </div>
             </Card>
             <div className="text-xs text-secondary-foreground/80">

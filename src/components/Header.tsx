@@ -23,10 +23,12 @@ const Header = () => {
               <MapPin className="w-4 h-4 mr-1" />
               Atendimento 24h
             </div>
+            <a href="tel:+5521987636363">
             <Button variant="whatsapp" size="sm">
               <Phone className="w-4 h-4 mr-2" />
               Ligar Agora
             </Button>
+            </a>
           </div>
         </div>
       </div>

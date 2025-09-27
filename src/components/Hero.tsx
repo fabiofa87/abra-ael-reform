@@ -53,12 +53,16 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="whatsapp" size="xl" className="flex-1 sm:flex-none">
                 <MessageCircle className="w-5 h-5 mr-2" />
+                <a href="https://wa.me/5521987636363" target="_blank" rel="noopener noreferrer">
                 WhatsApp - Orçamento
+                </a>
               </Button>
-              <Button variant="cta" size="xl" className="flex-1 sm:flex-none">
-                <Phone className="w-5 h-5 mr-2" />
-                Ligar Agora
-              </Button>
+              <a href="tel:+5521987636363">
+                <Button variant="cta" size="xl" className="flex-1 sm:flex-none">
+                  <Phone className="w-5 h-5 mr-2" />
+                    Ligar Agora
+                </Button>
+              </a>
             </div>
           </div>
 

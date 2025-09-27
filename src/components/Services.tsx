@@ -37,7 +37,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Nossos <span className="text-primary">Serviços</span>
+            <span className="text-primary">Nossos Serviços</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Especialistas em assistência técnica de eletrodomésticos com garantia e qualidade
@@ -92,10 +92,12 @@ const Services = () => {
         </div>
 
         <div className="text-center">
+          <a href="tel:+5521987636363">
           <Button variant="cta" size="xl">
             <Phone className="w-5 h-5 mr-2" />
             Solicitar Orçamento Gratuito
           </Button>
+          </a>
         </div>
       </div>
     </section>
