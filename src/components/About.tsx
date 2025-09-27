@@ -15,7 +15,7 @@ const About = () => {
                 <br />Experiência em Refrigeração
               </h2>
               <p className="text-xl text-muted-foreground">
-                Abel é técnico especializado em assistência técnica de geladeiras, freezers e máquinas de lavar. 
+                A Abeltec é especializada em assistência técnica de geladeiras, freezers e máquinas de lavar. 
                 Com vasta experiência no mercado, oferece atendimento personalizado e soluções eficientes para sua casa.
               </p>
             </div>
@@ -70,7 +70,7 @@ const About = () => {
 
             <Button variant="whatsapp" size="lg">
               <MessageCircle className="w-5 h-5 mr-2" />
-              Falar com Abel no WhatsApp
+              Falar com a Abeltec no WhatsApp
             </Button>
           </div>
 

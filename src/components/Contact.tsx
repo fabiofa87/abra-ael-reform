@@ -27,7 +27,7 @@ const Contact = () => {
             <Phone className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Telefone</h3>
             <p className="text-white/80 text-sm mb-4">(XX) XXXXX-XXXX</p>
-            <Button variant="outline" size="sm" className="border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
               Ligar
             </Button>
           </Card>
@@ -45,7 +45,7 @@ const Contact = () => {
             <MapPin className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Localização</h3>
             <p className="text-white/80 text-sm mb-4">Atendemos toda região</p>
-            <Button variant="outline" size="sm" className="border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
               Ver no Maps
             </Button>
           </Card>
@@ -54,16 +54,16 @@ const Contact = () => {
             <Clock className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Horário</h3>
             <p className="text-white/80 text-sm mb-4">24 horas por dia</p>
-            <Button variant="outline" size="sm" className="border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="sm" className="border-white text-white hover:bg-white hover:text-primary">
               Emergência
             </Button>
           </Card>
         </div>
 
-        <Card className="bg-white/5 backdrop-blur border-white/20 max-w-4xl mx-auto">
+        <Card className="bg-white/10 backdrop-blur border-white/30 max-w-4xl mx-auto">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl text-white">Solicite seu Orçamento Gratuito</CardTitle>
-            <p className="text-white/80">Atendimento rápido e profissional para seus eletrodomésticos</p>
+            <CardTitle className="text-2xl text-white font-bold">Solicite seu Orçamento Gratuito</CardTitle>
+            <p className="text-white text-lg">Atendimento rápido e profissional para seus eletrodomésticos</p>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid md:grid-cols-3 gap-6 text-center">

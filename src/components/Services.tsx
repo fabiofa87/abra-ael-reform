@@ -25,9 +25,9 @@ const services = [
   },
   {
     icon: Wrench,
-    title: "Manutenção Preventiva",
-    description: "Serviços de manutenção para evitar problemas e prolongar a vida útil",
-    features: ["Limpeza completa", "Verificação geral", "Troca de filtros", "Ajustes e calibragem"]
+    title: "Não Vendemos Peças",
+    description: "Focamos exclusivamente no serviço técnico especializado, não comercializamos peças",
+    features: ["Serviço técnico apenas", "Mão de obra qualificada", "Diagnóstico preciso", "Atendimento personalizado"]
   }
 ];
 
