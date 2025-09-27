@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="bg-[var(--gradient-hero)] p-2 rounded-lg">
+            <div className="bg-[image:var(--gradient-hero)] p-2 rounded-lg">
               <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
                 <span className="text-primary font-bold text-lg">A</span>
               </div>

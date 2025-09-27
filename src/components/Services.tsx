@@ -48,9 +48,9 @@ const Services = () => {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <Card key={index} className="bg-[var(--gradient-card)] shadow-[var(--shadow-card)] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card key={index} className="bg-[image:var(--gradient-card)] shadow-[var(--shadow-card)] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-[var(--gradient-hero)] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[image:var(--gradient-hero)] rounded-full flex items-center justify-center mx-auto mb-4">
                     <IconComponent className="w-8 h-8 text-white" />
                   </div>
                   <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
@@ -72,19 +72,19 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <Card className="text-center p-6 bg-[var(--gradient-card)]">
+          <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
             <Shield className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Garantia de 6 Meses</h3>
             <p className="text-muted-foreground text-sm">Todos os serviços com garantia completa</p>
           </Card>
           
-          <Card className="text-center p-6 bg-[var(--gradient-card)]">
+          <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
             <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Atendimento 24h</h3>
             <p className="text-muted-foreground text-sm">Emergências e agendamentos</p>
           </Card>
           
-          <Card className="text-center p-6 bg-[var(--gradient-card)]">
+          <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
             <CheckCircle className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Peças Originais</h3>
             <p className="text-muted-foreground text-sm">Sempre utilizamos peças de qualidade</p>

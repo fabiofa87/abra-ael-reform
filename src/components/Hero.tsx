@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-technician.jpg";
 
 const Hero = () => {
   return (
-    <section className="py-20 bg-[var(--gradient-hero)] text-white overflow-hidden relative">
+    <section className="py-20 bg-[image:var(--gradient-hero)] text-white overflow-hidden relative">
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

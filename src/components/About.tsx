@@ -21,25 +21,25 @@ const About = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-6">
-              <Card className="text-center p-6 bg-[var(--gradient-card)]">
+              <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
                 <Users className="w-10 h-10 text-primary mx-auto mb-3" />
                 <div className="text-2xl font-bold text-foreground">500+</div>
                 <div className="text-sm text-muted-foreground">Clientes Atendidos</div>
               </Card>
               
-              <Card className="text-center p-6 bg-[var(--gradient-card)]">
+              <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
                 <Award className="w-10 h-10 text-primary mx-auto mb-3" />
                 <div className="text-2xl font-bold text-foreground">15+</div>
                 <div className="text-sm text-muted-foreground">Anos de Experiência</div>
               </Card>
               
-              <Card className="text-center p-6 bg-[var(--gradient-card)]">
+              <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
                 <Clock className="w-10 h-10 text-primary mx-auto mb-3" />
                 <div className="text-2xl font-bold text-foreground">24h</div>
                 <div className="text-sm text-muted-foreground">Atendimento Emergencial</div>
               </Card>
               
-              <Card className="text-center p-6 bg-[var(--gradient-card)]">
+              <Card className="text-center p-6 bg-[image:var(--gradient-card)]">
                 <Star className="w-10 h-10 text-primary mx-auto mb-3" />
                 <div className="text-2xl font-bold text-foreground">4.9★</div>
                 <div className="text-sm text-muted-foreground">Avaliação Média</div>

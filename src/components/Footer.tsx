@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-[var(--gradient-hero)] p-2 rounded-lg">
+              <div className="bg-[image:var(--gradient-hero)] p-2 rounded-lg">
                 <div className="w-6 h-6 bg-white rounded flex items-center justify-center">
                   <span className="text-primary font-bold text-sm">A</span>
                 </div>
